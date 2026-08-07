@@ -13,6 +13,7 @@ class Solution:
                 if nums[left]==0:
                     zero_count-=1
                 left+=1
+            #update maxLength
             maxLength=max(maxLength,right-left+1)
         return maxLength
             
